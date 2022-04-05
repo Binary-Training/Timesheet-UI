@@ -27,7 +27,7 @@ export default function ApproveByResource() {
 
                 </div>
                 <fieldset className="container border">
-                    <legend className="float-none w-auto p-2 text-color">Approve By Resource</legend>
+                    <legend className="float-none w-auto p-2 text-color">Approve By Project</legend>
                     <div className="container mt-4">
                         <form className="row g-3 d-flex justify-content-between">
                             <div class="col-md-3">
