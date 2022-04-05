@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.main-border{
+  border: 1px solid silver;
+}
+
+.export-btn{
+  width: 100px;
+}
+
+.submit-btn{
+  float: right;
+}
+
+.borden-top{
+  border-bottom: 1px solid black;
+}
+.text-color{
+  color: orangered;
+  font-weight: bold;
+}
+
+ .input-box {
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  right: 13px;
+  top: 8px;
+  color: black;
+  font-size: 16px;
+}
