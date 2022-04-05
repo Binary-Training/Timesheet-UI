@@ -1,64 +1,27 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-color {
+  color: #fa8231;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-hover:hover {
+  color: #546de5 !important;
+  font-weight: 500;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.main-border{
-  border: 1px solid silver;
-}
-
-.export-btn{
-  width: 100px;
-}
-
-.submit-btn{
-  float: right;
-}
-
-.borden-top{
-  border-bottom: 1px solid black;
-}
-.text-color{
-  color: orangered;
-  font-weight: bold;
-}
-
- .input-box {
-  position: relative;
+.input-box {
+  position: relative
 }
 
 .input-box i {
@@ -66,5 +29,23 @@
   right: 13px;
   top: 8px;
   color: black;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: bold;
 }
+
+.button {
+  width: 100px;
+  height: 35px;
+  border: 1px solid grey;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: grey;
+  background-color: #fff;
+  border-radius: 45px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  font-weight: 500;
+  }

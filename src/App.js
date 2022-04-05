@@ -1,18 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Picker from "./components/Picker";
-import MainTable from "./components/Table";
-import ApproveByReject from './components/ApproveByReject/ApproveByReject';
+// import Picker from "./components/Picker";
+// import MainTable from "./components/Table";
+import Home from './router/Home';
 
 function App() {
   return (
-    <div>
-  {/*<Picker /> */}
-
-    <ApproveByReject />
-
-    {/*<MainTable />*/}
-    </div>
+    <>
+    {/* <Picker /> */}
+    <Home />
+    
+    </>
   );
 }
 
