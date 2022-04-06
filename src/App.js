@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import TimesheetDetail from './components/TimesheetDetail/TimesheetDetail';
 // import Picker from "./components/Picker";
 // import MainTable from "./components/Table";
 // import ApproveByReject from './components/pages/ApproveByReject';
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
     {/* <Picker /> */}
-    <Home />
+    {/*<Home />*/}
+    <TimesheetDetail />
     
     </>
   );

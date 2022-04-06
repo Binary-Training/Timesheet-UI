@@ -6,7 +6,7 @@
 }
 
 body {
-  font-size: 62.5%;
+  font-size: 88.5%;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -33,25 +33,45 @@ body {
   font-weight: bold;
 }
 
-.button {
-  width: 100px;
-  height: 35px;
-  border: 1px solid grey;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: grey;
-  background-color: #fff;
-  border-radius: 45px;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
-  font-weight: 500;
-  }
- 
+
   .submit-btn{
     border-radius: 20px;
     float: right;
   }
+
+  .export-btn{
+    width: 140px;
+    border-radius: 35px;
+  }
   
+  .slide{
+    text-align: right;
+  }
+  
+  .extract{
+    width: 700px;
+  }
+  
+  .silver{
+    background-color: silver;
+    height: 70px;
+    margin-left: 18px;
+    margin-right: 18px;
+    
+  }
+  
+  .silvers{
+    margin-top: 21px;
+  }
+  
+  .upper{
+    margin-bottom: 20px;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .centers{
+    text-align: left;
+  }
