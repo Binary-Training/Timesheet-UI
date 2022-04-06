@@ -11,11 +11,11 @@ const ApproveProject = () => {
           <Link to="/approve"> Approve Project</Link>
         </li>
         <li>
-          <Link to="/resource">Approve Resource</Link>
+          <Link to="/details">Project Details</Link>
         </li>
         <li>
-          <Link to="/task">Approve Reject</Link>
-        </li>
+        <Link to="/weekly">Weekly</Link>
+      </li>
       </ul>
     </>
   );

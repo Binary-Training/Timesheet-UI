@@ -1,11 +1,19 @@
-const ApproveByProject = () => {
+const ProjectDetails = () => {
   return (
     <>
       <div className="container mb-3">
         <nav className="navbar navbar-expand-lg navbar-light bg-light rounded fw-bold">
           <div className="container-fluid">
             <ol className="breadcrumb pt-2">
-              <li className="breadcrumb-item">Project View</li>
+              <li className="breadcrumb-item">
+                <a href="/" className="text-decoration-none">
+                  Project View
+                </a>
+              </li>
+              <li className="breadcrumb-item">
+                3MRCR-301012 <i className="bi bi-chevron-left"></i>Sep02Proj13
+                <i className="bi bi-chevron-right"></i>
+              </li>
             </ol>
           </div>
         </nav>
@@ -65,19 +73,7 @@ const ApproveByProject = () => {
             <thead>
               <tr>
                 <th>
-                  Project Name <i className="bi bi-arrow-down-up"></i>
-                </th>
-                <th>
-                  <span>Project</span> <br /> <span>Manager</span> <br />
-                  <span>Manager</span> <i className="bi bi-arrow-down-up"></i>
-                </th>
-                <th>
-                  <span>Project</span> <br /> <span>Country</span>
-                  <i className="bi bi-arrow-down-up"></i>
-                </th>
-                <th>
-                  <span>Project</span> <br /> <span>Description</span>
-                  <i className="bi bi-arrow-down-up"></i>
+                  Resource Name <i className="bi bi-arrow-down-up"></i>
                 </th>
                 <th>
                   <span>Approved</span> <br /> <span>Hour(s)</span>
@@ -107,17 +103,13 @@ const ApproveByProject = () => {
                   </span>
                 </th>
                 <th>
-                  <span>Approve</span>
-                  <br />
-                  <span>All</span>
+                  Approve All
                   <span className="ms-1">
                     <input className="form-check-input" type="checkbox" />
                   </span>
                 </th>
                 <th>
-                  <span>Reject</span>
-                  <br />
-                  <span>All</span>
+                  Reject All
                   <span className="ms-1">
                     <input className="form-check-input" type="checkbox" />
                   </span>
@@ -126,10 +118,7 @@ const ApproveByProject = () => {
             </thead>
             <tbody>
               <tr>
-                <td className="text-hover">3MRCR-301012</td>
-                <td>Feb5 Pm1</td>
-                <td>LATAM2014</td>
-                <td>Sep02Proj13</td>
+                <td className="text-hover">Feb4 User5</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.8</td>
@@ -153,10 +142,7 @@ const ApproveByProject = () => {
                 </td>
               </tr>
               <tr>
-                <td className="text-hover">3MRCR-301012</td>
-                <td>Feb5 Pm1</td>
-                <td>LATAM2014</td>
-                <td>Sep02Proj13</td>
+                <td className="text-hover">Feb4 User3</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.8</td>
@@ -180,10 +166,7 @@ const ApproveByProject = () => {
                 </td>
               </tr>
               <tr>
-                <td className="text-hover">3MRCR-301012</td>
-                <td>Feb5 Pm1</td>
-                <td>LATAM2014</td>
-                <td>Sep02Proj13</td>
+                <td className="text-hover">Feb4 User2</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.8</td>
@@ -207,64 +190,7 @@ const ApproveByProject = () => {
                 </td>
               </tr>
               <tr>
-                <td className="text-hover">3MRCR-301012</td>
-                <td>Feb5 Pm1</td>
-                <td>LATAM2014</td>
-                <td>Sep02Proj13</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.8</td>
-                <td>0.8</td>
-                <td>0.0</td>
-                <td>
-                  <input
-                    className="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckDefault"
-                  />
-                </td>
-                <td>
-                  <input
-                    className="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckDefault"
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td className="text-hover">3MRCR-301012</td>
-                <td>Feb5 Pm1</td>
-                <td>LATAM2014</td>
-                <td>Sep02Proj13</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.8</td>
-                <td>0.8</td>
-                <td>0.0</td>
-                <td>
-                  <input
-                    className="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckDefault"
-                  />
-                </td>
-                <td>
-                  <input
-                    className="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckDefault"
-                  />
-                </td>
-              </tr>
-              <tr>
-                <td className="text-hover">3MRCR-301012</td>
-                <td>Feb5 Pm1</td>
-                <td>LATAM2014</td>
-                <td>Sep02Proj13</td>
+                <td className="text-hover">Mar27 User</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.8</td>
@@ -291,10 +217,7 @@ const ApproveByProject = () => {
           </table>
         </div>
 
-        <div className="container d-flex justify-content-between">
-          <button type="button" className="button">
-            Export
-          </button>
+        <div className="container d-flex justify-content-end">
           <ul className="pagination pagination-sm">
             <li className="page-item">
               <a className="page-link" href="/" aria-label="Previous">
@@ -332,4 +255,4 @@ const ApproveByProject = () => {
   );
 };
 
-export default ApproveByProject;
+export default ProjectDetails;
