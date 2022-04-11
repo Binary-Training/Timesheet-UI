@@ -60,6 +60,7 @@ const WeeklyDetails = () => {
                   <option>10</option>
                   <option>20</option>
                   <option>30</option>
+                  <option>All</option>
                 </select>
                 <span className="mt-2 ms-2">Entries</span>
               </div>

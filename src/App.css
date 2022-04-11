@@ -49,3 +49,12 @@ body {
   outline: none;
   font-weight: 500;
   }
+
+.form-select {
+  font-size: 10px;
+  box-shadow: none !important;
+}
+
+input {
+  box-shadow: none !important;
+}
