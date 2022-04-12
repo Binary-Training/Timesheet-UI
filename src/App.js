@@ -1,19 +1,20 @@
-// import logo from './logo.svg';
 import './App.css';
-import TimesheetDetail from './components/TimesheetDetail/TimesheetDetail';
-// import Picker from "./components/Picker";
-// import MainTable from "./components/Table";
-// import ApproveByReject from './components/pages/ApproveByReject';
-import Home from './router/Home';
+import ApproveByReject from './Components/Reject/ApproveByReject';
+import RegisterTimesheet from './Components/Reject/RegisterTimesheet';
+import TimesheetDetail from './Components/Reject/TimesheetDetail';
+import Header from './Components/Reject/Header';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-    {/* <Picker /> */}
-    {/*<Home />*/}
-    <TimesheetDetail />
-    
-    </>
+    <div>
+      <Header />
+      <Routes>
+        <Route path="/ApproveByReject" element={<ApproveByReject />} />
+        <Route path="/RegisterTimesheet" element={<RegisterTimesheet />} />
+        <Route path="/TimesheetDetail" element={<TimesheetDetail />} />
+      </Routes>
+    </div>
   );
 }
 

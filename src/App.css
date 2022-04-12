@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,7 @@ body {
   font-weight: 500;
   cursor: pointer;
 }
+
 .input-box {
   position: relative
 }
@@ -34,44 +36,80 @@ body {
 }
 
 
-  .submit-btn{
-    border-radius: 20px;
-    float: right;
-  }
+.submit-btn {
+  border-radius: 20px;
+  float: right;
+}
 
-  .export-btn{
-    width: 140px;
-    border-radius: 35px;
-  }
-  
-  .slide{
-    text-align: right;
-  }
-  
-  .extract{
-    width: 700px;
-  }
-  
-  .silver{
-    background-color: silver;
-    height: 70px;
-    margin-left: 18px;
-    margin-right: 18px;
-    
-  }
-  
-  .silvers{
-    margin-top: 21px;
-  }
-  
-  .upper{
-    margin-bottom: 20px;
-  }
+.export-btn {
+  border-radius: 25px;
+}
 
-  .center{
-    text-align: center;
-  }
+.exports-btn {
+  border-radius: 25px;
+  width: 130px;
+}
 
-  .centers{
-    text-align: left;
-  }
+.slide {
+  text-align: right;
+}
+
+.slid {
+  text-align: left;
+}
+
+.extract {
+  width: 700px;
+}
+
+.silver {
+  background-color: silver;
+  height: 70px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.silve {
+  background-color: silver;
+  height: 70px;
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: -25px;
+
+}
+
+.silvers {
+  margin-top: 21px;
+}
+
+.upper {
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.centers {
+  text-align: left;
+}
+
+.slow {
+  text-align: left;
+}
+
+.slow a {
+  text-decoration: none;
+}
+
+.short{
+  width: 100px;
+}
+
+
+.header{
+  text-align: right;
+  font-size: 19px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}

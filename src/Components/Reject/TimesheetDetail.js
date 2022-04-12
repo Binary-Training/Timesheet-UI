@@ -1,21 +1,22 @@
 import React from "react";
+
 import { Table } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
 function TimesheetDetail() {
     return (
         <div>
-           
+
             <fieldset className="container border ">
-                <legend className="float-none w-auto p-2 text-color extra">* Pending *</legend>
+                <legend className="float-none w-auto p-2 text-color extra">Pending</legend>
 
                 <div className="row silver">
                     <div className="col silvers">Employee Id<i class="fa fa-info-circle" aria-hidden="true"></i></div>
-                    <div className="col silvers"><input type="text" placeholder="Employee Id"/></div>
+                    <div className="col silvers"><input type="text" placeholder="Employee Id" /></div>
                     <div className="col silvers">Employee Name</div>
-                    <div className="col silvers"><input type="text" placeholder="Employee Name"/></div>
+                    <div className="col silvers"><input type="text" placeholder="Employee Name" /></div>
                     <div className="col silvers">Employee Cost Center</div>
-                    <div className="col silvers"><input type="text" placeholder="Employee Cost Center"/></div>
+                    <div className="col silvers"><input type="text" placeholder="Employee Cost Center" /></div>
                 </div>
                 <br />
                 <br />
