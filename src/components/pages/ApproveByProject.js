@@ -292,8 +292,7 @@ const ApproveByProject = () => {
         </div>
 
         <div className="container d-flex justify-content-between">
-          <button type="button" className="button">
-            Export
+          <button type="button" className="button">Export
           </button>
           <ul className="pagination pagination-sm">
             <li className="page-item">
