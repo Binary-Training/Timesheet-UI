@@ -1,15 +1,19 @@
-// import logo from './logo.svg';
 import './App.css';
-import ApproveByResource from './components/Approved/ResourceDetail';
-// import Picker from "./components/Picker";
-// import MainTable from "./components/Table";
-
-
+import ApproveByResource from './components/Resource/ApproveByResource';
+import ResourceDetail from './components/Resource/ResourceDetail';
+import ResourceWeeklyDetail from'./components/Resource/ResourceWeeklyDetail';
+import Header from './components/Resource/Header';
+import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <>
-      <ApproveByResource />    
-    </>
+    <div>
+      <Header />
+      <Routes>
+        <Route path="/ApproveByResource" element={<ApproveByResource />}/>
+        <Route path="/ResourceDetail" element={<ResourceDetail />}/>
+        <Route path="/ResourceWeeklyDetail" element={<ResourceWeeklyDetail />}/>
+      </Routes>
+    </div>
   );
 }
 

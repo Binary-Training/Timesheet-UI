@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,22 +7,50 @@
 }
 
 body {
-  font-size: 62.5%;
+  font-size: 75.5%;
   font-family: 'Poppins', sans-serif;
 }
 
-.text-color {
-  color: #fa8231;
-  font-weight: 500;
+.main-border{
+  border: 1px solid black;
 }
 
-.text-hover:hover {
-  color: #546de5 !important;
-  font-weight: 500;
-  cursor: pointer;
+.search-bar{
+  width: 300px;
+  border-radius: 20px;
 }
+
+.export-btn{
+  width: 80px;
+  border-radius: 15px;
+}
+
+.submit-btn{
+  border-radius: 20px;
+  width: 120px;
+  float: right;
+}
+
+.borden-top{
+  border-bottom: 1px solid black;
+}
+
+a:hover {
+  color: #61dafb;
+}
+
+.inc-search{
+  text-align: left;
+}
+
+.text-color {
+  color: orange;
+  font-weight: bold;
+  font-size: 15px;
+}
+
 .input-box {
-  position: relative
+  position: relative;
 }
 
 .input-box i {
@@ -29,16 +58,15 @@ body {
   right: 13px;
   top: 8px;
   color: black;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 16px;
 }
 
-.button {
-  width: 100px;
+.button{
+  width: 1oopx;
   height: 35px;
   border: 1px solid grey;
   font-size: 11px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 2.5px;
   font-weight: 500;
   color: grey;
@@ -48,4 +76,32 @@ body {
   cursor: pointer;
   outline: none;
   font-weight: 500;
-  }
+}
+
+.text-hover {
+  color: #546de5 !important;
+}
+
+.hover{
+  color: #546de5;
+}
+
+.form-select{
+  font-size: 12px;
+  box-shadow: none !important;
+}
+
+ input{
+   box-shadow: none !important;
+ }
+
+.header{
+  text-align: right;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-size {
+  font-size: 15px !important;
+}
