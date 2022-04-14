@@ -1,7 +1,7 @@
 import React from "react";
 
 import Table from "react-bootstrap/Table"
-import { Button } from "react-bootstrap"
+
 
 export default function MainTable() {
     return (
@@ -22,8 +22,8 @@ export default function MainTable() {
                 <br />
                 <div className="row upper">
                     <div className="col slid">
-                        <Button variant="primary" className=" export-btn">Copy from previous Week Tasks</Button>{' '}
-                        <Button variant="primary" className=" export-btn">Copy from previous Week Tasks & Time</Button>{' '}
+                        <button type="button" className="btn btn-danger export-btn">Copy From Previous Week Tasks</button>{"  "}
+                        <button type="button" class="btn btn-danger export-btn">Copy From Previous Week Tasks & Time</button>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ export default function MainTable() {
                     </div>
                 </div>
                 <Table striped bordered hover>
-                    <thead className="center">
+                    <thead className="center cent">
                         <tr>
                             <th>Project</th>
                             <th>Project Description</th>
@@ -201,8 +201,8 @@ export default function MainTable() {
 
                 <div className="row upper">
                     <div className="col slide">
-                        <Button variant="primary" className=" export-btn">Submit Time For Approval</Button>{' '}
-                        <Button variant="primary" className=" exports-btn">Save</Button>{' '}
+                        <button className="btn btn-danger export-btn">Submit Time For Approval</button>{' '}
+                        <button className="btn btn-danger exports-btn">Save</button>
                     </div>
                 </div>
             </fieldset>

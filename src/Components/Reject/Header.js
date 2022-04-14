@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 function Header(){
     return(
         <div className="header">
-        <Link to="ApproveByReject">ApproveByReject</Link>
+        <Link to="ApproveByReject"><p>ApproveByReject</p></Link>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to="RegisterTimesheet">RegisterTimesheet</Link>
+        <Link to="RegisterTimesheet"><p>RegisterTimesheet</p></Link>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <Link to="TimesheetDetail">TimesheetDetail</Link>
+        <Link to="TimesheetDetail"><p>TimesheetDetail</p></Link>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </div>
     )

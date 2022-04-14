@@ -1,16 +1,15 @@
 import React from "react";
 
 import { Table } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 
-function TimesheetDetail() {
+export default function TimesheetDetail() {
     return (
         <div>
 
             <fieldset className="container border ">
                 <legend className="float-none w-auto p-2 text-color extra">Pending</legend>
 
-                <div className="row silver">
+                <div className="row silve">
                     <div className="col silvers">Employee Id<i class="fa fa-info-circle" aria-hidden="true"></i></div>
                     <div className="col silvers"><input type="text" placeholder="Employee Id" /></div>
                     <div className="col silvers">Employee Name</div>
@@ -21,7 +20,7 @@ function TimesheetDetail() {
                 <br />
                 <br />
                 <Table striped bordered hover >
-                    <thead className="center">
+                    <thead className="cente">
                         <tr>
                             <th><span>WBS</span></th>
                             <th><span>Effort Type</span></th>
@@ -81,13 +80,11 @@ function TimesheetDetail() {
                     </div>
 
                     <div className="col slide">
-                        <Button variant="primary" className=" export-btn">Approve</Button>{' '}
-                        <Button variant="primary" className=" export-btn">Reject</Button>{' '}
+                        <button  className="btn btn-danger export-btn">Approve</button>{' '}
+                        <button  className="btn btn-danger export-btn">Reject</button>
                     </div>
                 </div>
             </fieldset>
         </div>
     )
 }
-
-export default TimesheetDetail;

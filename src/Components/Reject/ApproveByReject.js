@@ -1,13 +1,14 @@
 import React from "react";
 
 import { Table } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 
 export default function ApproveByReject() {
     return (
         <div>
             <fieldset className="container border">
-                <legend className="float-none w-auto p-2 text-color">Timesheet Pending Approval</legend>
+                <legend className="float-none w-auto p-2 text-color extra">Timesheet Pending Approval</legend>
 
 
                 <div className='container main-border'>
@@ -17,10 +18,10 @@ export default function ApproveByReject() {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                         <li className="nav-item">
-                                            <a className="nav-link active bg-secondary" aria-current="page" href="#">My Approvals</a>
+                                            <a className="nav-link active bg-secondary ever" aria-current="page" href="#">My Approvals</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">Delegated Approvals</a>
+                                            <a className="nav-link ever" href="#">Delegated Approvals</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -38,7 +39,7 @@ export default function ApproveByReject() {
                                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                             <li className="nav-item">
-                                                <a className="nav-link active" aria-current="page" >Show</a>
+                                                <a className="nav-link active ever" aria-current="page" >Show</a>
                                             </li>
 
                                             <li className="nav-item">
@@ -53,7 +54,7 @@ export default function ApproveByReject() {
                                             </li>
 
                                             <li className="nav-item">
-                                                <a className="nav-link" >enteries</a>
+                                                <a className="nav-link ever" >enteries</a>
                                             </li>
 
                                         </ul>
@@ -72,59 +73,57 @@ export default function ApproveByReject() {
                             </form>
                         </div>
                     </div>
-
-
                     <Table striped bordered hover>
-                        <thead>
+                        <thead className="center cente">
                             <tr>
-                                <th><span>Resource Name <i className="bi bi-sort-down"></i></span></th>
-                                <th><span>Timesheet Period <i className="bi bi-arrow-down-up"></i></span></th>
-                                <th><span>Regular Hours <i className="bi bi-arrow-down-up"></i></span></th>
-                                <th><span>Overtime Hours <i className="bi bi-arrow-down-up"></i></span></th>
-                                <th><input type="text" placeholder="Add Comment" /><br />Approve All<input type="checkbox" /></th>
-                                <th><input type="text" placeholder="Add Comment" /><br />Reject All<input type="checkbox" /></th>
+                                <th><span style={{ display: "flex", justifyContent: "space-between" }}>Resource Name<i className="bi bi-sort-down "></i></span></th>
+                                <th><span style={{ display: "flex", justifyContent: "space-between" }}>Timesheet Period <i className="bi bi-arrow-down-up"></i></span></th>
+                                <th><span style={{ display: "flex", justifyContent: "space-between" }}>Regular Hours <i className="bi bi-arrow-down-up"></i></span></th>
+                                <th><span style={{ display: "flex", justifyContent: "space-between" }}>Overtime Hours <i className="bi bi-arrow-down-up"></i></span></th>
+                                <th><input type="text" placeholder="Add Comment" /><br />Approve All <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /></th>
+                                <th><input type="text" placeholder="Add Comment" /><br />Reject All <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /></th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody className="center">
                             <tr>
-                                <td>{"Feb4 User2"}</td>
+                                <td className="ever">{"Feb4 User2"}</td>
                                 <td className="text-primary">{"01/05/2022-07/05/2022"}</td>
                                 <td>{"15.00"}</td>
                                 <td>{"0.0"}</td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
                             </tr>
                             <tr>
-                                <td>{"Feb4 User2"}</td>
+                                <td className="ever">{"Feb4 User2"}</td>
                                 <td className="text-primary">{"06/03/2022-12/03/2022"}</td>
                                 <td>{"0.0"}</td>
                                 <td>{"8.00"}</td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
                             </tr>
                             <tr>
-                                <td>{"Feb4 User3"}</td>
+                                <td className="ever">{"Feb4 User3"}</td>
                                 <td className="text-primary">{"01/05/2022-07/05/2022"}</td>
                                 <td>{"10.00"}</td>
                                 <td>{"0.0"}</td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
                             </tr>
                             <tr>
-                                <td>{"Feb4 User3"}</td>
+                                <td className="ever">{"Feb4 User3"}</td>
                                 <td className="text-primary">{"06/03/2022-12/03/2022"}</td>
                                 <td>{"23.00"}</td>
                                 <td>{"0.0"}</td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
                             </tr>
                             <tr>
-                                <td>{"Feb4 User4"}</td>
+                                <td className="ever">{"Feb4 User4"}</td>
                                 <td className="text-primary">{"27/02/2022-05/03/2022"}</td>
                                 <td>{"23.00"}</td>
                                 <td>{"0.0"}</td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
-                                <td><input type="checkbox" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
+                                <td className="centers"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" /><br /><input placeholder="Add Comment" /></td>
                             </tr>
                         </tbody>
                     </Table>
@@ -132,7 +131,7 @@ export default function ApproveByReject() {
 
                     <div className='row'>
                         <div className='col'>
-                            <button className='btn btn-outline-secondary export-btn rounded-pill'>export</button>
+                            <button className='button btn-sm'>export</button>
                         </div>
 
                         <div className='col'>
@@ -155,8 +154,8 @@ export default function ApproveByReject() {
                     </div>
 
                     <div className='row'>
-                        <div className='col'>
-                            <button className='btn btn-primary submit-btn rounded-pill'>Save & Submit</button>
+                        <div className='col ever'>
+                            <button className='btn btn-danger submit-btn rounded-pill'>Save & Submit</button>
                         </div>
                     </div>
                 </div>
