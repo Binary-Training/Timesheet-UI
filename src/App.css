@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,400;1,500&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,53 +8,63 @@
 body {
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
+  background-color: #fff;
 }
+
 
 .text-color {
-  color: #fa8231;
-  font-weight: 500;
-}
-
-.text-hover:hover {
-  color: #546de5 !important;
-  font-weight: 500;
-  cursor: pointer;
-}
-.input-box {
-  position: relative
-}
-
-.input-box i {
-  position: absolute;
-  right: 13px;
-  top: 8px;
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #6c5ce7;
+  letter-spacing: 1px;
 }
 
 .button {
-  width: 100px;
-  height: 35px;
-  border: 1px solid grey;
+  width: 90px;
+  height: 30px;
+  border: 1px solid #6c5ce7;
   font-size: 11px;
   text-transform: capitalize;
   letter-spacing: 2.5px;
-  font-weight: 500;
-  color: grey;
+  font-weight: 600;
+  color: #6c5ce7;
   background-color: #fff;
   border-radius: 45px;
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
   font-weight: 500;
-  }
+}
+.firstDiv {
+  display: flex;
+  flex: 0.9;
+  justify-content: center;
+}
+.secondDiv {
+  display: flex;
+  flex: 0.1;
+}
 
-  .form-select {
-    font-size: 10px;
-    box-shadow: none !important;
-  }
+.button:hover {
+  background-color: #dfe6e9;
+  color: #6c5ce7;
+  border: 1px solid #dfe6e9;
+}
 
-  input {
-    box-shadow: none !important;
-  }
+.form-select {
+  font-size: 12px;
+  box-shadow: none !important;
+}
+
+input {
+  box-shadow: none !important;
+}
+th {
+  font-size: 0.7rem;
+  color: #6c5ce7;
+}
+td {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: #2d3436 !important;
+}
