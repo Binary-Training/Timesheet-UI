@@ -6,7 +6,7 @@ import { Card } from "react-bootstrap";
 
 export default function ApproveByReject() {
     return (
-        <div>
+        <div className="righter">
             <fieldset className="container border">
                 <legend className="float-none w-auto p-2 text-color extra">Timesheet Pending Approval</legend>
 

@@ -5,7 +5,7 @@ import Table from "react-bootstrap/Table"
 
 export default function MainTable() {
     return (
-        <div>
+        <div className="righter">
             <fieldset className="container border ">
                 <legend className="float-none w-auto p-2 text-color extra">Register Timesheet</legend>
 
