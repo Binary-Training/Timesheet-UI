@@ -1,14 +1,14 @@
 import './App.css';
-import ApproveByReject from './Components/Reject/ApproveByReject';
-import RegisterTimesheet from './Components/Reject/RegisterTimesheet';
-import TimesheetDetail from './Components/Reject/TimesheetDetail';
-import Header from './Components/Reject/Header';
+import ApproveByReject from './Components/Reject/Pages/ApproveByReject';
+import RegisterTimesheet from './Components/Reject/Pages/RegisterTimesheet';
+import TimesheetDetail from './Components/Reject/Pages/TimesheetDetail';
 import { Routes, Route } from 'react-router-dom';
+import SideNav from './Components/SideNav';
 
 function App() {
   return (
     <div>
-      <Header />
+      <SideNav />
       <Routes>
         <Route path="/ApproveByReject" element={<ApproveByReject />} />
         <Route path="/RegisterTimesheet" element={<RegisterTimesheet />} />
